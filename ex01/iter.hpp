@@ -4,7 +4,7 @@
 #include <cstdlib>
 
 template<typename T, typename F>
-void iter(T &arr, int length, F func)
+void iter(T &arr, const int length, F func)
 {
 	for (int i = 0; i < length; i++)
 	{
